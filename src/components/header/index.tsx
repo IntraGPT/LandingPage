@@ -25,7 +25,7 @@ const Header = () => (
       <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
         <Button primary>Get started</Button>
       </div>
-      <img src={screenshot} alt="Screenshot" width="100%" height="100%" />
+      <img className={tw(`mt-10`)} src={screenshot} alt="Screenshot" width="100%" height="100%" />
     </div>
   </header>
 );
